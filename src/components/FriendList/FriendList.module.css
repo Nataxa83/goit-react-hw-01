@@ -1,7 +1,8 @@
 .friendsBox {
+  max-width: 600px;
   display: flex;
   margin: 30px;
-  gap: 22px;
+  justify-content: space-between;
 }
 .friendsBoxItem {
   width: 100px;
