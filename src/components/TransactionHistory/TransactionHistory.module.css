@@ -1,0 +1,28 @@
+.table {
+  width: 600px;
+  margin: 0 30px 30px 30px;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 20px;
+}
+
+tr {
+  height: 35px;
+}
+tbody tr:nth-child(even) {
+  background-color: rgb(206, 205, 205);
+}
+
+.title {
+  background-color: rgb(53, 49, 49);
+  color: white;
+}
+
+.type {
+  text-transform: capitalize;
+}
