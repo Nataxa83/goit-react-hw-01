@@ -2,7 +2,8 @@
   max-width: 600px;
   height: 650px;
   border: 3px solid black;
-  border-radius: 3%;
+  border-radius: 10px;
+  margin: 30px;
 }
 
 .profileInfo {
@@ -47,8 +48,8 @@
 
   border-top: 3px solid gray;
   background-color: lightgray;
-  border-bottom-left-radius: 3%;
-  border-bottom-right-radius: 3%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .statsList {

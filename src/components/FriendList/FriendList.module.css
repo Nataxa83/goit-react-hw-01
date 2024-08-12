@@ -1,0 +1,31 @@
+.friendsBox {
+  display: flex;
+  margin: 30px;
+  gap: 22px;
+}
+.friendsBoxItem {
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.friendsAvatar {
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+.friendsName {
+  text-align: center;
+  font-size: 25px;
+}
+
+.online {
+  text-align: center;
+  color: green;
+}
+
+.offline {
+  text-align: center;
+  color: red;
+}
